@@ -22,7 +22,7 @@ def booking(request):
     return render(request, 'booking.html')
 
 def contact(request):
-    return render(request, 'contact.html')
+    return render(request, 'contacts.html')
 
 def booking_submit(request):
     if request.method == "POST":
