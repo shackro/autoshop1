@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<section class="w-full bg-gray-100 py-20 px-6">
+    <div class="max-w-7xl mx-auto text-center mb-12">
+        <h1 class="text-5xl font-bold mb-4">Gallery</h1>
+        <p class="text-gray-600 max-w-3xl mx-auto">
+            Take a look at our workshop, tools, and vehicles we’ve serviced.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        {% for i in 1|to:12 %}
+        <div class="h-48 bg-gray-300 rounded-xl hover:scale-105 transition"></div>
+        {% endfor %}
+    </div>
+</section>
+
+{% endblock %}

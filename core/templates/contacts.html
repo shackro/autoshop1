@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<section class="w-full bg-gray-100 py-20 px-6">
+    <div class="max-w-7xl mx-auto text-center mb-12">
+        <h1 class="text-5xl font-bold mb-4">Contact Us</h1>
+        <p class="text-gray-600 max-w-3xl mx-auto mb-8">
+            Reach out to AutoFix Pro through any of the methods below.
+        </p>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold mb-2">Phone</h3>
+                <p class="text-gray-600">+254 700 000 000</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold mb-2">Email</h3>
+                <p class="text-gray-600">info@autofixpro.co.ke</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold mb-2">WhatsApp</h3>
+                <p class="text-gray-600">
+                    <a href="https://wa.me/254700000000" class="text-yellow-400 hover:underline">Chat with us</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="mt-12 w-full h-64 lg:h-96">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.0000000000005!2d36.8219!3d-1.2921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10b000000001%3A0x123456789abcdef!2sAutoFix+Pro!5e0!3m2!1sen!2ske!4v1690000000000!5m2!1sen!2ske"
+                class="w-full h-full rounded-xl border-0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
