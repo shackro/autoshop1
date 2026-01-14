@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-xs^xubz1jdocg0kv*mk6cx^aoxlp!f(!goa@z^@c6xi7o4+s9b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','autoshopv1.vercel.app']
+ALLOWED_HOSTS = ['*','autoshop_v1.vercel.app']
 
 
 # Application definition
