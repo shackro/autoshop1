@@ -2,7 +2,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def home(request):
+def index(request):
     context = {
         'gallery_range': range(8)  # 0 to 7
     }
